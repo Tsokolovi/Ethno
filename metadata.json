@@ -1,0 +1,6 @@
+{
+  "name": "ეთნო (Ethno)",
+  "description": "ქართული ავთენტური ნატურალური ჩირი და მთის ხილის ჩაი ეკოლოგიურად სუფთა რეგიონებიდან. 100% ნატურალური ქართული ნედლეული შაქრისა და ქიმიის გარეშე.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
