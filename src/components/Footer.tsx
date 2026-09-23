@@ -93,13 +93,13 @@ export const Footer: React.FC<FooterProps> = ({ currentLang, onOpenB2B }) => {
               </div>
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-[#E58332] shrink-0" />
-                <a href="tel:+995599123456" className="hover:text-white transition-colors">
+                <a href="tel:+995555166860" className="hover:text-white transition-colors">
                   {t.phone}
                 </a>
               </div>
               <div className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-[#E58332] shrink-0" />
-                <a href="mailto:info@ethno-georgia.ge" className="hover:text-white transition-colors">
+                <a href="mailto:tatasokolovi@gmail.com" className="hover:text-white transition-colors">
                   {t.email}
                 </a>
               </div>
@@ -117,7 +117,7 @@ export const Footer: React.FC<FooterProps> = ({ currentLang, onOpenB2B }) => {
                 <Instagram className="w-4 h-4" />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/1CZopvbPqv/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noreferrer"
                 className="w-8 h-8 rounded-full bg-[#2C211A] hover:bg-[#3D2E24] text-white flex items-center justify-center transition-colors"
@@ -132,7 +132,7 @@ export const Footer: React.FC<FooterProps> = ({ currentLang, onOpenB2B }) => {
         {/* Bottom micro bar */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#8A7A6E]">
           <div>
-            © {new Date().getFullYear()} «ეთნო» (Ethno Georgia). {t.rights}
+            © 2024-{new Date().getFullYear()} «ეთნო გემო» (Ethno Taste). {t.rights}
           </div>
 
           <button
