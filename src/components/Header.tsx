@@ -32,7 +32,7 @@ export const Header: React.FC<HeaderProps> = ({
   return (
     <header className="sticky top-0 z-40 bg-[#FAF7F2]/95 backdrop-blur-md border-b border-[#E6DDD0] transition-all">
       {/* Top micro bar for authenticity & origin */}
-      <div className="bg-[#2D221A] text-[#EADBCE] text-xs py-1.5 px-4">
+      <div className="bg-[#9647c2] text-[#EADBCE] text-xs py-1.5 px-4">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
             <span className="inline-block w-2 h-2 rounded-full bg-[#E58332] animate-pulse"></span>
