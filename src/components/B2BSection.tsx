@@ -89,7 +89,7 @@ export const B2BSection: React.FC<B2BSectionProps> = ({ currentLang }) => {
             {/* Quick Contact buttons */}
             <div className="flex items-center gap-3">
               <a
-                href="https://wa.me/995599123456"
+                href="https://wa.me/995555166860"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1EBE5D] text-white px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition-all shadow-md cursor-pointer"
@@ -97,7 +97,7 @@ export const B2BSection: React.FC<B2BSectionProps> = ({ currentLang }) => {
                 <MessageCircle className="w-4 h-4" />
                 <span>{t.whatsappWholesale}</span>
               </a>
-              <span className="text-xs text-[#BFAF9E]">+995 599 12-34-56</span>
+              <span className="text-xs text-[#BFAF9E]">+995 555 16-68-60</span>
             </div>
           </div>
 
@@ -150,7 +150,7 @@ export const B2BSection: React.FC<B2BSectionProps> = ({ currentLang }) => {
                       required
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                      placeholder="info@example.com"
+                      placeholder="example@gmail.com"
                       className="w-full bg-[#2A1F18] border border-[#5A483B] rounded-xl px-4 py-2.5 text-sm text-white placeholder-[#857262] focus:outline-hidden focus:border-[#E58332] transition-colors"
                     />
                   </div>
