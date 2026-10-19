@@ -104,10 +104,10 @@ export const Header: React.FC<HeaderProps> = ({
           <div>
             <div className="flex items-baseline gap-2">
               <span className="font-serif text-3xl font-bold tracking-wider text-[#2D221A]">
-                ეთნო გემო
+                Ethno Taste
               </span>
               <span className="text-xs uppercase tracking-widest text-[#8F532B] font-semibold">
-                Ethno Taste
+                ეთნო გემო
               </span>
             </div>
             <p className="text-[11px] tracking-wider text-[#736356] uppercase">
