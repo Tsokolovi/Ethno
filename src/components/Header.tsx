@@ -106,9 +106,6 @@ export const Header: React.FC<HeaderProps> = ({
               <span className="font-serif text-3xl font-bold tracking-wider text-[#2D221A]">
                 Ethno Taste
               </span>
-              <span className="text-xs uppercase tracking-widest text-[#8F532B] font-semibold">
-                ეთნო გემო
-              </span>
             </div>
             <p className="text-[11px] tracking-wider text-[#736356] uppercase">
               {currentLang === 'ka' ? 'ქართული ჩირი & მთის ჩაი' : currentLang === 'ru' ? 'Сухофрукты & Горные чаи' : 'Georgian Dried Fruits & Teas'}
