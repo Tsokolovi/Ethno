@@ -93,14 +93,14 @@ export const Header: React.FC<HeaderProps> = ({
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           className="flex items-center gap-3 cursor-pointer group"
         >
-          <div className="w-12 h-12 rounded-full bg-[#EADBCE] border border-[#C5B59E] flex items-center justify-center shadow-sm group-hover:bg-[#E2CEB9] transition-all overflow-hidden p-1.5">
-            <img 
-              src={logoImg} 
-              alt="Ethno Logo" 
-              className="w-full h-full object-contain"
-            />
-          </div>
-
+{/* Контейнер для логотипа */}
+<div className="w-12 h-12 rounded-full overflow-hidden shadow-sm border border-[#C5B59E] group-hover:scale-105 transition-all flex items-center justify-center bg-[#2B0E1B]">
+  <img 
+    src={logoImg} 
+    alt="Ethno Logo" 
+    className="w-full h-full object-cover scale-110"
+  />
+</div>
           <div>
             <div className="flex items-baseline gap-2">
               <span className="font-serif text-3xl font-bold tracking-wider text-[#2D221A]">
