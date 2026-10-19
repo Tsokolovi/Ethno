@@ -86,28 +86,34 @@ export const Header: React.FC<HeaderProps> = ({
 
       {/* Main Navbar */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-        {/* Logo */}
-        <div 
-          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className="flex items-center gap-3 cursor-pointer group"
-        >
-          <div className="w-12 h-12 rounded-full bg-[#EADBCE] border border-[#C5B59E] flex items-center justify-center text-[#7F3818] shadow-sm group-hover:bg-[#E2CEB9] transition-all">
-            <span className="font-serif text-2xl font-bold tracking-tight">ე</span>
-          </div>
-          <div>
-            <div className="flex items-baseline gap-2">
-              <span className="font-serif text-3xl font-bold tracking-wider text-[#2D221A]">
-                ეთნო
-              </span>
-              <span className="text-xs uppercase tracking-widest text-[#8F532B] font-semibold">
-                Ethno
-              </span>
-            </div>
-            <p className="text-[11px] tracking-wider text-[#736356] uppercase">
-              {currentLang === 'ka' ? 'ქართული ჩირი & მთის ჩაი' : currentLang === 'ru' ? 'Сухофрукты & Горные чаи' : 'Georgian Dried Fruits & Teas'}
-            </p>
-          </div>
-        </div>
+{/* Logo */}
+<div 
+  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+  className="flex items-center gap-3 cursor-pointer group"
+>
+  {/* Круглый контейнер для логотипа */}
+  <div className="w-12 h-12 rounded-full bg-[#EADBCE] border border-[#C5B59E] flex items-center justify-center shadow-sm group-hover:bg-[#E2CEB9] transition-all overflow-hidden p-1.5">
+    <img 
+      src="/logo.png" 
+      alt="ეთნო Ethno Logo" 
+      className="w-full h-full object-contain"
+    />
+  </div>
+
+  <div>
+    <div className="flex items-baseline gap-2">
+      <span className="font-serif text-3xl font-bold tracking-wider text-[#2D221A]">
+        ეთნო
+      </span>
+      <span className="text-xs uppercase tracking-widest text-[#8F532B] font-semibold">
+        Ethno
+      </span>
+    </div>
+    <p className="text-[11px] tracking-wider text-[#736356] uppercase">
+      {currentLang === 'ka' ? 'ქართული ჩირი & მთის ჩაი' : currentLang === 'ru' ? 'Сухофрукты & Горные чаи' : 'Georgian Dried Fruits & Teas'}
+    </p>
+  </div>
+</div>
 
         {/* Desktop Nav Links */}
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium text-[#4A3B31]">
