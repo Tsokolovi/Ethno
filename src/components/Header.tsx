@@ -108,7 +108,7 @@ export const Header: React.FC<HeaderProps> = ({
               </span>
             </div>
             <p className="text-[11px] tracking-wider text-[#736356] uppercase">
-              {currentLang === 'ka' ? 'ქართული გემოების სახელოსნო - უფლისციხე' : currentLang === 'ru' ? 'Сухофрукты & Горные чаи' : 'Georgian Dried Fruits & Teas'}
+              {currentLang === 'ka' ? 'ქართული გემოების სახელოსნო' : currentLang === 'ru' ? 'Мастерская Грузинских Вкусов' : 'Georgian Dried Fruits & Teas'}
             </p>
           </div>
         </div>
