@@ -16,7 +16,8 @@ export const TRANSLATIONS = {
       viewCatalog: 'კატალოგის ნახვა',
       exploreRegions: 'ჩვენს შესახებ',
       b2bDirect: 'ბიზნესთან თანამშრომლობა (B2B)',
-      statOrigin: '100% საქართველო',
+      statOrigin: 'ქართულ მოსავალს - გაგრძელება
+        ადგილობრივი ნედლეული ახალ პროდუქტებში',
       statOriginSub: 'ადგილობრივი ხილი',
       statClean: '0% ქიმია',
       statCleanSub: 'გოგირდისა და შაქრის გარეშე',
