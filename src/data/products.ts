@@ -35,6 +35,11 @@ export const PRODUCTS: Product[] = [
       ru: '100% отборная грузинская хурма каралоки. Без сахара, без диоксида серы (SO2), без красителей.',
       en: '100% natural Georgian Karaloki persimmons. Zero added sugar, zero sulfur dioxide (SO2), zero additives.'
     },
+    flavorNotes: {
+      ka: ['თაფლის სიტკბო', 'კარამელი', 'მარმელადის ტექსტურა', 'მზის არომატი'],
+      ru: ['Медовая сладость', 'Карамель', 'Мармеладная текстура', 'Солнечный аромат'],
+      en: ['Honey Sweetness', 'Caramel Notes', 'Marmalade Texture', 'Sun Essence']
+    },
     ecoTags: ['100% ქართული', 'მზის ენერგიით შრობა', 'შაქრის გარეშე', 'SO2-ის გარეშე'],
     harvestSeason: 'ოქტომბერი — ნოემბერი',
     nutritionalInfo: {
