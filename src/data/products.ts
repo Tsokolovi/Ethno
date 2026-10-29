@@ -5,14 +5,14 @@ export const PRODUCTS: Product[] = [
   {
     id: 'ethno-karaloki-persimmon',
     name: {
-      ka: 'ქლიავის ჩირი - უკურკო',
+      ka: 'ყარალოკი — მთის გამომშრალი ხურმა',
       ru: 'Каралоки — горная вяленая хурма',
       en: 'Karaloki — Mountain Sun-Dried Persimmon'
     },
-    georgianName: 'ქლიავის ჩირი',
+    georgianName: 'ხურმის ჩირი (ყარალოკი)',
     category: 'dried_fruits',
-    price: '5, 12, 30, 125',
-    weight: '100გ, 300გ, 1კგ, 5კგ',
+    price: 12.0,
+    weight: '250 გ',
     image: ASSETS.driedFruits,
     badge: {
       ka: 'ქართული საგანძური',
@@ -20,18 +20,18 @@ export const PRODUCTS: Product[] = [
       en: 'Georgian Heritage'
     },
     region: {
-      ka: 'უფლისციხე, გორი',
+      ka: 'ალაზნის ველი, კახეთი',
       ru: 'Алазанская долина, Кахетия',
       en: 'Alazani Valley, Kakheti'
     },
     elevation: '480 - 650 მ',
     description: {
-      ka: 'ტრადიციული მეთოდით, გორის სუფთა მთის ქარზე გამოყვანილი ქლიავი. შიგნით ნაზი და მარმელადისებრია, გარედან ბუნებრივი ფრუქტოზის მსუბუქი თეთრი ნაფიფქით.',
+      ka: 'ტრადიციული მეთოდით, კახეთის სუფთა მთის ქარზე გამოყვანილი ყარალოკი. შიგნით ნაზი და მარმელადისებრია, გარედან ბუნებრივი ფრუქტოზის მსუბუქი თეთრი ნაფიფქით.',
       ru: 'Легендарная грузинская хурма «каралоки», высушенная традиционным методом на шпагате под сухим горным ветром Кахетии. Покрыта естественным белым налетом природной фруктозы, имеет тающую мармеладную текстуру внутри.',
       en: 'Famous Georgian mountain persimmon dried using antique string-hanging methods in Kakheti mountain breeze. Naturally develops an organic white fructose frost with a rich honey-caramel center.'
     },
     ingredients: {
-      ka: '100% რჩეული ქართული შავი ქლიავი. შაქრის, გოგირდის (SO2) და კონსერვანტების გარეშე.',
+      ka: '100% რჩეული ქართული ხურმა ყარალოკი. შაქრის, გოგირდის (SO2) და კონსერვანტების გარეშე.',
       ru: '100% отборная грузинская хурма каралоки. Без сахара, без диоксида серы (SO2), без красителей.',
       en: '100% natural Georgian Karaloki persimmons. Zero added sugar, zero sulfur dioxide (SO2), zero additives.'
     },
@@ -175,7 +175,6 @@ export const PRODUCTS: Product[] = [
       fiber: '8.4 გ'
     }
   },
-  // FRUIT TEAS
   {
     id: 'ethno-tea-racha-mountain',
     name: {
@@ -309,7 +308,6 @@ export const PRODUCTS: Product[] = [
       ratio: '2 ჩ/კ 300 მლ-ზე'
     }
   },
-  // GIFT SETS
   {
     id: 'ethno-box-terroir-grand',
     name: {
