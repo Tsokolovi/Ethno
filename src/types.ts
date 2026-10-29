@@ -9,10 +9,10 @@ export interface Product {
     ka: string;
     en: string;
   };
-  georgianName: string; // Original Georgian script name (e.g. კარალოკი, ჩირი)
-  category: 'dried_fruits' | 'fruit_teas' | 'gift_sets';
+  georgianName: string;
+  category: Exclude<ProductCategory, 'all'>; // гарантирует соответствие с ProductCategory
   price: number; // in GEL (₾)
-  weight: string; // e.g. "250 г", "100 г"
+  weight: string;
   image: string;
   badge?: {
     ru: string;
@@ -35,7 +35,7 @@ export interface Product {
     ka: string;
     en: string;
   };
-  flavorNotes: {
+  flavorNotes?: { // Сделано опциональным (?), чтобы не ломать сборку при отсутствии нот
     ru: string[];
     ka: string[];
     en: string[];
