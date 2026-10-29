@@ -11,7 +11,7 @@ export const PRODUCTS: Product[] = [
     },
     georgianName: 'ქლიავის ჩირი',
     category: 'dried_fruits',
-    price: 5, 12, 30, 125,
+    price: '5, 12, 30, 125',
     weight: '100გ, 300გ, 1კგ, 5კგ',
     image: ASSETS.driedFruits,
     badge: {
