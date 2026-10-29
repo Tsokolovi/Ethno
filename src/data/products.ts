@@ -5,11 +5,11 @@ export const PRODUCTS: Product[] = [
   {
     id: 'ethno-karaloki-persimmon',
     name: {
-      ka: 'ყარალოკი — მთის გამომშრალი ხურმა',
+      ka: 'შავი ქლაივის ჩირი',
       ru: 'Каралоки — горная вяленая хурма',
       en: 'Karaloki — Mountain Sun-Dried Persimmon'
     },
-    georgianName: 'ხურმის ჩირი (ყარალოკი)',
+    georgianName: 'ქლიავის ჩირი',
     category: 'dried_fruits',
     price: 12.0,
     weight: '250 გ',
@@ -20,7 +20,7 @@ export const PRODUCTS: Product[] = [
       en: 'Georgian Heritage'
     },
     region: {
-      ka: 'ალაზნის ველი, კახეთი',
+      ka: 'უფლისციე, გორი',
       ru: 'Алазанская долина, Кахетия',
       en: 'Alazani Valley, Kakheti'
     },
