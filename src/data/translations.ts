@@ -4,7 +4,7 @@ export const TRANSLATIONS = {
       catalog: 'პროდუქცია',
       terroir: 'რეგიონები',
       eco: 'ეკოლოგია და ტრადიცია',
-      teaSommelier: 'მთის ჩაი',
+      teaSommelier: 'ჩაის ნაყენი - აღმოსავლური მიქსი',
       b2b: 'პირდაპირი მომარაგება (B2B)',
       cart: 'კალათა',
       orderSample: 'ნიმუშების შეკვეთა'
@@ -137,9 +137,9 @@ export const TRANSLATIONS = {
       emptySub: 'შეარჩიეთ ნატურალური ქართული ჩირი და მთის ჩაი კატალოგიდან',
       total: 'სულ გადასახდელი:',
       checkoutBtn: 'შეკვეთის გაფორმება',
-      directContact: 'სწრაფი შეკვეთა WhatsApp / Telegram-ით',
+      directContact: 'სწრაფი შეკვეთა WhatsApp-ით ',
       freeShippingNote: 'უფასო მიტანა თბილისში 50 ₾-დან. მიწოდება მთელ საქართველოში და საზღვარგარეთ.',
-      successOrdered: 'შეკვეთა მიღებულია! „ეთნო“-ს მენეჯერი უმოკლეს დროში დაგიკავშირდებათ.',
+      successOrdered: 'შეკვეთა მიღებულია! „ETHNO TASTE“-ს მენეჯერი უმოკლეს დროში დაგიკავშირდებათ.',
       freeShippingActivated: '🎉 უფასო მიტანა თბილისში გააქტიურებულია!',
       addMoreForFreeShipping: 'დაამატეთ კიდევ {amount} ₾ პროდუქცია უფასო მიტანისთვის.',
       deliveryDetails: 'მიწოდების მონაცემები',
@@ -149,19 +149,19 @@ export const TRANSLATIONS = {
       paymentOnDelivery: 'გადახდა მიღებისას (კურიერთან ნაღდი ანგარიშსწორებით ან ბარათით)',
       backToSite: 'საიტზე დაბრუნება',
       toCatalog: 'კატალოგში დაბრუნება',
-      whatsappOrderGreeting: 'გამარჯობა, მსურს შეკვეთის გაფორმება «ეთნო»-ში:',
+      whatsappOrderGreeting: 'გამარჯობა, მსურს შეკვეთის გაფორმება:',
       whatsappOrderTotal: 'სულ',
       whatsappOrderName: 'სახელი',
       whatsappOrderAddress: 'მისამართი'
     },
     footer: {
-      about: '„ეთნო“ — ნატურალური ქართული ჩირისა და მთის ხილის ჩაის მწარმოებელი. ვაცოცხლებთ საქართველოს კუთხეების უძველეს ტრადიციებს.',
+      about: '„ETHNO TASTE“ — ნატურალური ქართული ჩირის, ჩაის და ნუგბარის მწარმოებელი.',
       contactTitle: 'კონტაქტი',
       address: 'საქართველო, თბილისი / წარმოება: უფლისციხე (გორი)',
       phone: '+995 555166860',
       email: 'info@ethnotaste.ge',
       rights: 'ყველა უფლება დაცულია.დამზადებულია საქართველოში.',
-      rawOriginBadge: 'ნედლეული მთის ბაღებიდან და ველური ტყეებიდან',
+      rawOriginBadge: 'ნედლეული ქართული ბაღებიდან და ტყეებიდან',
       navigationHeading: 'ნავიგაცია',
       toTop: 'ზემოთ'
     }
