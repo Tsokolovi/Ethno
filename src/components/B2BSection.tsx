@@ -89,7 +89,7 @@ export const B2BSection: React.FC<B2BSectionProps> = ({ currentLang }) => {
             {/* Quick Contact buttons */}
             <div className="flex items-center gap-3">
               <a
-                href="https://wa.me/995555166860"
+                href="https://wa.me/995595288866"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1EBE5D] text-white px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition-all shadow-md cursor-pointer"
@@ -97,7 +97,7 @@ export const B2BSection: React.FC<B2BSectionProps> = ({ currentLang }) => {
                 <MessageCircle className="w-4 h-4" />
                 <span>{t.whatsappWholesale}</span>
               </a>
-              <span className="text-xs text-[#BFAF9E]">+995 555 16-68-60</span>
+              <span className="text-xs text-[#BFAF9E]">+995 595 28 88 66</span>
             </div>
           </div>
 
