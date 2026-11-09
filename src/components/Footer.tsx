@@ -93,13 +93,13 @@ export const Footer: React.FC<FooterProps> = ({ currentLang, onOpenB2B }) => {
               </div>
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-[#E58332] shrink-0" />
-                <a href="tel:+995555166860" className="hover:text-white transition-colors">
+                <a href="tel:+995595288866" className="hover:text-white transition-colors">
                   {t.phone}
                 </a>
               </div>
               <div className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-[#E58332] shrink-0" />
-                <a href="mailto:tatasokolovi@gmail.com" className="hover:text-white transition-colors">
+                <a href="mailto:info@ethnotaste.ge" className="hover:text-white transition-colors">
                   {t.email}
                 </a>
               </div>
